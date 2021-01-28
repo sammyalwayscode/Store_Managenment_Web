@@ -1,0 +1,23 @@
+.Wrapper{
+  height: 300px;
+  width: 1000px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  justify-content: space-around;
+}
+
+/* .Wrapper::-webkit-scrollbar{
+  width: 0;
+} */
+
+.Wrapper .Item{
+  width: 310px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: #ddd;
+  margin: 5px auto;
+  margin-left: 20px;
+}
